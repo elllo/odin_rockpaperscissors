@@ -1,0 +1,95 @@
+html {
+  font-size: 10px;
+  background: url(https://news.harvard.edu/wp-content/uploads/2019/04/eso1907a.jpg?w=1600&h=900&crop=1) bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  color: yellow;
+  text-align: center;
+}
+
+p {
+  color: orange;
+  font-size: 16px;
+}
+
+.positionedText {
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+
+.clickImage {
+  height: 150px;
+  width: 150px;
+  margin: 30px;
+  float: clear;
+}
+
+#rock {
+  background: url(http://www.bbc.co.uk/staticarchive/ad0957f8dff28c5adcc47e376b931cfd54925dd1.jpg) center center;
+  background-size: cover;
+}
+
+#paper {
+  background: url(https://turn-systems.de/media/image/product/1712/md/ocb-blanc-extra-long-papers.jpg) center center;
+  background-size: cover;
+}
+
+#scissors {
+  background: url(https://vignette.wikia.nocookie.net/p__/images/6/61/JD_as_Acissorhamds.jpeg/revision/latest?cb=20160323144628&path-prefix=protagonist) center center;
+  background-size: cover;
+}
+
+#clickImages {
+  align-items: center;
+}
+
+.centeredImages {
+  display: flex;
+  flex: 1;
+  min-height: 80vh;
+  min-width: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
